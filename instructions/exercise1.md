@@ -28,7 +28,7 @@ Set the height to 600 pixels.
 
 ![image](images/slide58.png)
 ```js
-var map = L.map('map').setView([37.754700, -122.420790], 14);
+var map = L.map('mapId').setView([37.754700, -122.420790], 14);
 ```
 
 ![image](images/slide60.png)
