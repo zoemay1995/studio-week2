@@ -9,32 +9,36 @@
 3. Open index.html
 
 ![image](images/slide53.png)
-
+---
 ![image](images/slide55.png)
+---
+#### 4. 
+![image](images/slide56.png)
 
-Finally, add some custom CSS inside the style tag (lines 11- 13) to make the map as big or as small as you want. 
-Set the height to 600 pixels.
-
-```html
+```css
 #mapId {
      height: 600px;
    }
  ```
 
+#### 5.
 ![image](images/slide57.png)
-```js
+```html
 <div id="mapId"></div>
 ```
 
+#### 6.
 ![image](images/slide58.png)
 ```js
 var map = L.map('mapId').setView([37.754700, -122.420790], 14);
 ```
 
+---
+
 ![image](images/slide60.png)
-
+#### 7.
 ![image](images/slide61.png)
-
+#### 8.
 ![image](images/slide62.png)
 
 
@@ -44,6 +48,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
    }).addTo(map);
 ```
 
+Save your file and open the file in a browser.
+
+---
 Neat! You’re looking at the default tiles from [OpenStreetMap](https://www.openstreetmap.org/#map=5/38.007/-95.844). 
 
 What if you want to add different tiles? You can do that! Here’s another 😎 cool example from [Stamen](https://stamen.com/). Find more examples [here](https://leaflet-extras.github.io/leaflet-providers/preview/).
