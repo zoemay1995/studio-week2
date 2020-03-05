@@ -11,7 +11,7 @@ This repo contains starter code for a small, 4 page website that contains a seri
 **At the end of the week you will submit a link to your repo via Moodle.** Happy coding!
 
 ## Additional Resources. 
-After successfully following the instructions above you can take things farther...
+After successfully following the instructions above you can take things further...
 - [Layer Groups and Layers Control with Leaflet](https://leafletjs.com/examples/layers-control/)
 - [Mapbox GL JS Map with Custom Markers](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
 - [Style a Single Country](https://docs.mapbox.com/help/tutorials/style-single-country/)
