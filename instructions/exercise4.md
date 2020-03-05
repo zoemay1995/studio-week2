@@ -4,9 +4,14 @@
 
 ### Adding Custom Mapbox Style to Page
 Once you have created a custom style using Mapbox, you'll need to add it to your web page. To do this, you will need your custom style's Style URL. 
-3. Find the custom style you published in the last step here: https://studio.mapbox.com/
+
+1. Find the custom style you published in the last step here: https://studio.mapbox.com/
+
 2. Click on the three dots next to your style and copy the Style URL 
 ![image](images/style-url.png)
+
 3. Add the Style URL to your map's style property (line 49) in `Mapbox-gl-js-bm.html`
+
 4. Add your Mapbox access token (line 38)
+
 5. Save your changes and load your page
