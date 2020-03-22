@@ -1,6 +1,7 @@
 # Vector tiles with Mapbox GL JS
 - Head to http://bit.ly/mapbox-gl-js-basic in a new tab.
-- View the page’s source code- right-click anywhere, then click View Page Source.
+- View the page’s source code: right-click anywhere, then click "View Page Source."
+- You can use code you see as a guide, along with the instructions below. It's very common to look at code you already know works in order to help you solve problems when you are coding your own page!
 
 ### Initialize your first Mapbox GL JS map
 1. Fire up your text editor. In this class, we’ll be using Visual Studio Code (aka “VS Code”). Web mappers rely heavily on their text editors to get stuff done. We’re going to use ours a lot during this class.
