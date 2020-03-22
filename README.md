@@ -1,5 +1,5 @@
 # Welcome to the Studio Week 2!
-Last week we learned how to set up web pages and embed some pre-existing maps. This week we start building our own maps. And we'll start with a series of exercises for creating basemaps. 
+Last week we learned how to set up web pages and embed some pre-existing maps. This week we start building our own maps. And we'll start with a series of exercises for creating basemaps. Your maps will be constructed inside of a small, 4 page, website that we have already created in the file `index.html`. 
 
 ### A few notes on these tutorials
 1. The images in many of these tutorials are slides from our good friends at [Mapbox](https://www.mapbox.com/), who we're working with to develop these tutorials. The slides have instructions on them and show code that you will use to create your maps. In most cases, we've also created a code-block below the slide to call out the code you need to focus on.
