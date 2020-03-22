@@ -1,6 +1,11 @@
 # Welcome to the Studio Week 2!
 Last week we learned how to set up web pages and embed some pre-existing maps. This week we start building our own maps. And we'll start with a series of exercises for creating basemaps. 
 
+### A few notes on these tutorials
+1. The images in many of these tutorials are slides from our good friends at [Mapbox](https://www.mapbox.com/), who we're working with to develop these tutorials. The slides have instructions on them and show code that you will use to create your maps. In most cases, we've also created a code-block below the slide to call out the code you need to focus on.
+2. Some of the slides have discussion or question prompts that we may have used in class, but since we're online, we'll use them as discusssion prompts during our class meetings or in our Slack group. 
+3. Most of you who took my programm class have already seen comments in Python, `# which that look like this`. As we start to create web pages using HTML and web maps that often you JavaScript, you should be familiar with comments in those language as well. `<! -- Comments in HTML that look like this -->` and comments in Javascript `// use two slashes like this.` In excercise 4, specifically, you will only have the comment in an HTML page as guidance, so keep a sharp eye out!
+
 ## Expected Outputs for this week / what to submit: 
 This repo contains starter code for a small, 4 page website that contains a series of different base maps, each on it's own page. You can preview the starter site by opening the index.html file in a web browser. The first three pages you will modifying using the following files and instructions. 
 - Start with `index.html`. The instructions for completing this map are under [exercise1](https://github.com/IDCE-MSGIS/studio-week2/blob/master/instructions/exercise1.md)
