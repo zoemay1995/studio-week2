@@ -15,4 +15,6 @@ Once you have created a custom style using Mapbox, you'll need to add it to your
 
 4. Add your Mapbox access token (line 38)
 
-5. Save your changes and load your page
+5. Add some text to your web page (preferably underneath the web map) with links to the organization you choose to create a custom map for; a style document or guide for their colors, or which tool you used to define the colors; and a few words about any other color choices you made. 
+
+6. Save your changes and load your page
