@@ -13,6 +13,7 @@ This repo contains starter code for a small, 4 page website that contains a seri
 - Next up is `Mapbox-gl-js-cwm.html`. The instructions for completing this map are under [exercise2](https://github.com/IDCE-MSGIS/studio-week2/blob/master/instructions/exercise2.md)
 - Then there is `Mapbox-gl-js-ct.html`. Follow instructions in the  `Mapbox-gl-js-ct.html` file to add a marker and popup to a Mapbox GL JS map. There is no tutorial for this exercise: follow the comments in the file!
 - Finally, you'll create a brand new Mapbox style and insert it into `Mapbox-gl-js-bm.html`.  The instructions for completing this map are under [exercise4](https://github.com/IDCE-MSGIS/studio-week2/blob/master/instructions/exercise4.md)
+- Once you've completed all the exercises, you'll publish your website using Github pages. The specific type of site you'll use is called a "[project page](https://help.github.com/en/enterprise/2.14/user/articles/user-organization-and-project-pages)" and the set up will be similar to what you did with your first web site. Unlike the first week of studio, you do not need to add a theme or use Jekyll: simply make sure that the small website contained in your repo can be viewed as a web page. 
 
 **At the end of the week you will submit a link to your repo via Moodle.** Happy coding!
 
