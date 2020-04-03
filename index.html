@@ -19,38 +19,30 @@
 </head>
 
 <body>
-  <div id="mapId"></div>
-
-  <!--<h1>Studio Week 2 <br> Raster tiles with Leaflet </h1>!-->
+  <h1>Studio Week 2 <br> Raster tiles with Leaflet </h1>
   <!-- Add multiple pages to web page-->
   <!-- active class displays the grey box around current page-->
-  <!--<ul>
+  <ul>
   	<li><a class="active" href="index.html" target="_self">Output 1</a></li>
     <li><a href="Mapbox-gl-js-cwm.html" target="_self">Output 2</a></li>
     <li><a href="Mapbox-gl-js-ct.html" target="_self">Output 3</a></li>
     <li><a href="Mapbox-gl-js-bm.html" target="_self">Output 4</a></li>
   </ul>
-  <br> !-->
-
-  <!-- Add a div with id="mapId" to give the map somewhere to go -->
-
+  <br>
+  <div id="mapId"></div>
   <script>
-    var map = L.map('mapId').setView([39.2904, -76.6122], 14);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-   }).addTo(map);
-    // Create a variable called "map" to house your Leaflet map and all of its functionality
+    var map = L.map("mapId").setView([39.2904, -76.6122], 14);
 
-    /*
-     * Use Leaflet's tileLayer method to create a new tile layer, then add it to the map
-     ** Reference: https://leafletjs.com/reference-1.6.0.html#tilelayer
-     */
-
-    /* Try changing out the tile source for something else. Hint: you can find
-     * lots of tile sources here: https://leaflet-extras.github.io/leaflet-providers/preview/
-     */
+    L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+	   attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	   subdomains: 'abcd',
+	   minZoom: 0,
+	   maxZoom: 18,
+     ext: 'png'
+      }).addTo(map);
 
   </script>
+
 </body>
 
 </html>

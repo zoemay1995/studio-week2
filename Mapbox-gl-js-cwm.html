@@ -4,12 +4,21 @@
 <head>
   <title>Studio Week 2</title>
     <!-- Add Mapbox GL JS JavaScript file -->
-
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <!-- Add in the Mapbox GL JS CSS file -->
-
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
     <!-- Add styling info for the map -->
     <style>
-        
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #mapId {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
     </style>
     <!-- Adding styling info for page layout by reading in a CSS file -->
     <link rel="stylesheet" href="styles.css">
@@ -28,16 +37,19 @@
   <br>
 
     <!-- Container for the map -->
-
-    <script>
+  <div id="mapId"></div>
+  <script>
         // Mapbox GL JS requires a token
-        
-        /* Initialize the map with:
-         *  container
-         *  style
-         *  center
-         *  zoom
-         */
+    mapboxgl.accessToken = 'pk.eyJ1Ijoiem9lbWF5MTk5NSIsImEiOiJjazVnNmFnYnkwNHFnM2V0ZDkxNWJjYW9lIn0.Wl9AWpKWE1hGwQcNyOhuSw';
+
+        // Initialize the map
+    var map = new mapboxgl.Map({
+      container: 'mapId',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [-122.420790, 37.754700],
+      zoom: 14
+    }); 
+
     </script>
 
 </body>
